@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: skyblue;
+        }
+
+        h1:hover {
+            color: tomato;
+            background-color: yellow;
+            font-size: large;
+        }
+
+        .person:focus {
+            color: gold;
+            font-size: bold;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        li:first-child {
+            color: rosybrown;
+        }
+
+        li:last-child {
+            background-color: slateblue;
+            color: tomato;
+        }
+
+        li:nth-child(2n+1) {
+            color: tomato;
+            background-color: whitesmoke;
+        }
+
+        h3::before {
+            content: "hello ";
+            background-color: violet;
+        }
+
+        h3::after {
+            content: " gallo";
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is normal</h1>
+    <input type="text">
+    <input class="person" type="text">
+    <input type="text">
+    <input type="text">
+    <a href="http://www.google.com">google a jao</a>
+    <a href="http://www.web.programming-hero">Programming</a>
+    <br>
+    <h3>first</h3>
+    <h3>second</h3>
+    <h3>third</h3>
+    <h3>forth</h3>
+    <ul>
+        <li>Arif</li>
+        <li>Parvej</li>
+        <li>Noor</li>
+        <li>calia</li>
+        <li>maria</li>
+    </ul>
+</body>
+
+</html>
